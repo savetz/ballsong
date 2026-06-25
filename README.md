@@ -6,3 +6,5 @@ Ball Song (Nr. 1 and Nr. 2) is a pair of well-known demos for the Atari 8-bit co
 This was recovered in 2026 from floppy disk given by Bob Fraser, who had worked at the Atari Sunnyvale Research Laboratory. The data recovery was done by Kay Savetz.
 
 Included here is Ballsong_original.atr (the original disk as recovered) and Ballsong_with_SynAssembler.atr, a slightly modified version for easy assembly in SynAssembler. 
+
+Also included for context are the released versions of Ballsong 1 and 2, as XEX files, these are downloaded from https://a8.fandal.cz/detail.php?files_id=109 and https://a8.fandal.cz/detail.php?files_id=123
