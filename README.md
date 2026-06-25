@@ -9,6 +9,6 @@ This was recovered in 2026 from floppy disk given by Bob Fraser, who had worked 
 
 Included here is Ballsong_original.atr (the original disk as recovered) and Ballsong_with_SynAssembler.atr, a slightly modified version for easy assembly in SynAssembler. 
 
-To run the demo, set your Atari emulator to Atari 800 with OS B. Boot Ballsong_original.atr. Type DOS. At the DOS menu, type L followed by the return key. Type BALL.OBJ followed by the return key.
+To run the demo, set your Atari emulator to Atari 800 with OS B. Boot Ballsong_with_SynAssembler.atr. Type DOS. At the DOS menu, type L followed by the return key. Type BALL.OBJ followed by the return key.
 
 Also included for context are the released versions of Ballsong 1 and 2, as XEX files, these are downloaded from https://a8.fandal.cz/detail.php?files_id=109 and https://a8.fandal.cz/detail.php?files_id=123
