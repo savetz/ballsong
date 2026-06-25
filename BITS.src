@@ -1,0 +1,70 @@
+;;D:BITS
+VEWADL
+ .DA #VIEW0,#VIEW1
+ .DA #VIEW2,#VIEW3
+ .DA #VIEW4,#VIEW5
+ .DA #VIEW6,#VIEW7
+ .DA #VIEW8,#VIEW9
+ .DA #VIEW10,#VIEW11
+ .DA #VIEW12,#VIEW13
+ .DA #VIEW14,#VIEW15
+;
+VEWADH
+ .DA /VIEW0,/VIEW1
+ .DA /VIEW2,/VIEW3
+ .DA /VIEW4,/VIEW5
+ .DA /VIEW6,/VIEW7
+ .DA /VIEW8,/VIEW9
+ .DA /VIEW10,/VIEW11
+ .DA /VIEW12,/VIEW13
+ .DA /VIEW14,/VIEW15
+;
+;VIEWS OF BALL- HOW BIG
+;CENTER OF BALL GOES AT PLOT POINT
+;1ST BYTE= HOW TALL WHOLE BALL IS
+;ALL ARE 2 BYTES WIDE, 2 PLAYERS
+;PLAY0,PLAY1,PLAY0,PLAY1,ETC.
+VIEW0 .DA #1,#1,#0
+VIEW1 .DA #2,#1,#$80,#1,#$80
+VIEW2 .DA #3,#1,#0,#3,#$80,#1,#0
+VIEW3 .DA #4,#1,#$80,#3,#$C0,#3,#$C0,#1,#$80
+VIEW4 .DA #5,#1,#0,#3,#$80,#7,#$C0,#3,#$80
+ .DA #1,#0
+VIEW5 .DA #6,#1,#$80,#3,#$C0,#7,#$E0,#7,#$E0
+ .DA #3,#$C0,#1,#$80
+VIEW6 .DA #7,#3,#$80,#7,#$C0,#$F,#$E0,#$F
+ .DA #$E0,#$F,#$E0,#7,#$C0,#3,#$80
+VIEW7 .DA #9,#1,#$80,#3,#$C0,#7,#$E0,#$F
+ .DA #$F0,#$F,#$F0,#$F,#$F0,#7,#$E0,#3,#$C0
+ .DA #1,#$80
+VIEW8 .DA #9,#3,#$80,#7,#$C0,#7,#$E0,#$1F
+ .DA #$F0,#$1F,#$F0,#$1F,#$F0,#$F,#$E0,#7,#$C0
+ .DA #3,#$80
+VIEW9 .DA #10,#1,#$80,#7,#$E0,#$F,#$F0,#$F
+ .DA #$F0,#$1F,#$F8,#$1F,#$F8,#$F,#$F0,#$F
+ .DA #$F0,#7,#$E0,#1,#$80
+VIEW10 .DA #11,#3,#$80,#$F,#$E0,#$1F,#$F0
+ .DA #$1F,#$F0
+ .DA #$3F,#$F8,#$3F,#$F8,#$3F,#$F8,#$1F,#$F0
+ .DA #$1F,#$F0,#$F,#$E0,#$3,#$80
+VIEW11 .DA #12,#3,#$C0,#$F,#$F0,#$1F,#$F8
+ .DA #$1F,#$F8
+ .DA #$3F,#$FC,#$3F,#$FC,#$3F,#$FC,#$3F,#$FC
+ .DA #$1F,#$F8,#$1F,#$F8,#$F,#$F0,#3,#$C0
+VIEW12 .DA #13,#3,#$80,#$F,#$E0,#$1F,#$F0
+ .DA #$3F,#$F8,#$3F,#$F8,#$7F,#$FC,#$7F,#$FC
+ .DA #$7F,#$FC,#$3F,#$F8,#$3F,#$F8,#$1F,#$F0
+ .DA #$F,#$E0,#3,#$80
+VIEW13 .DA #13,#3,#$C0,#$F,#$F0,#$1F,#$F8
+ .DA #$3F,#$FC,#$3F,#$FC,#$7F,#$FE,#$7F,#$FE
+ .DA #$7F,#$FE,#$3F,#$FC,#$3F,#$FC,#$1F,#$F8
+ .DA #$F,#$F0,#3,#$C0
+VIEW14 .DA #15,#3,#$80,#$F,#$E0,#$1F,#$F0
+ .DA #$3F,#$F8,#$7F,#$FC,#$7F,#$FC,#$FF,#$FE
+ .DA #$FF,#$FE,#$FF,#$FE,#$7F,#$FC,#$7F,#$FC
+ .DA #$3F,#$F8,#$1F,#$F0,#$F,#$E0,#3,#$80
+VIEW15 .DA #16,#7,#$E0,#$1F,#$F8,#$3F,#$FC
+ .DA #$7F,#$FE,#$7F,#$FE,#$FF,#$FF,#$FF,#$FF
+ .DA #$FF,#$FF,#$FF,#$FF,#$FF,#$FF,#$FF,#$FF
+ .DA #$7F,#$FE,#$7F,#$FE,#$3F,#$FC,#$1F,#$F8
+ .DA #7,#$E0
